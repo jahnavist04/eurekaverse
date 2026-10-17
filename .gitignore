@@ -147,3 +147,17 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Python backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated data
+*.csv
+*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
